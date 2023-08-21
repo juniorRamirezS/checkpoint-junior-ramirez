@@ -1,0 +1,50 @@
+   44  mkdir checkpoint-junior-ramirez
+   45  cd checkpoint-junior-ramirez
+   46  git remote add origin https://github.com/juniorRamirezS/checkpoint-junior-ramirez.git
+   47  git remote add origin https://github.com/juniorRamirezS/checkpoint-junior-ramirez.git
+   48  git init
+   49  git remote add origin https://github.com/juniorRamirezS/checkpoint-junior-ramirez.git
+   50  git branch -M main
+   51  git remote -v
+   52  touch main.js
+   53  touch index.html
+   54  git status
+   55  git add .
+   56  git status
+   57  git commit -m "subiendo archivos main.js y index.html"
+   58  git status
+   59  git push origin main
+   60  git branch feature
+   61  git branch
+   62  git switch feature
+   63  mkdir Hardware
+   64  mkdir Software
+   65  mkdir SeguridadInformatica
+   66  cd Hardware
+   67  touch resumen.txt
+   68  cd ..
+   69  cd Software
+   70  touch resumen.txt
+   71  cd ..
+   72  cd SeguridadInformatica
+   73  touch resumen.txt
+   74  git status
+   75  git add .
+   76  git status
+   77  cd ..
+   78  git add .
+   79  git status
+   80  git commit -m "subiendo archivos a la rama feature"
+   81  git push origin feature
+   82  git switch main
+   83  mv main.js resumenHardware.txt
+   84  mv index.html resumenSoftware.txt
+   85  git status
+   86  git add .
+   87  git status
+   88  git commit -m "renombrando archivos"
+   89  git status
+   90  history
+   91  history 15
+   92  touch comandos.txt
+   93  history 50 > comandos.txt
